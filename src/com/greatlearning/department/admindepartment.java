@@ -1,10 +1,15 @@
 package com.greatlearning.department;
 
-import com.greatlearning.base.superdepartment;
+import com.greatlearning.base.SuperDepartment;
 
-public class admindepartment extends superdepartment{
+public class AdminDepartment extends SuperDepartment{
 	
-	public admindepartment() {
-		super("Admin Department", "Complete your documents Submission", "Complete by EOD");
+	public static final String DEPTNAME = "Admin Department";
+	/**
+	 * constructor to initiate parent class with given values.
+	 */
+	public AdminDepartment() {
+		super(DEPTNAME, "Complete your documents submission", "Complete by EOD");
 	}
+	
 }
